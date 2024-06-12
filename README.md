@@ -1,4 +1,4 @@
-# RingoTelerikWebApi
+# Ringo Telerik Reporting
 
 This project, RingoTelerikWebApi, is designed to provide users with a robust API for managing and interacting with a PostgreSQL database. It includes features such as data retrieval and manipulation, user authentication, and more.
 
