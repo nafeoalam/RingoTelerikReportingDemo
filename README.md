@@ -5,9 +5,15 @@ This project, RingoTelerikWebApi, is designed to provide users with a robust API
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-- PostgreSQL with a preloaded database dump
-- .NET SDK and runtime environment
-- An IDE or editor capable of handling .NET projects
+- **PostgreSQL**: Ensure it's installed with a preloaded database dump.
+- **.NET SDK and Runtime Environment**: Required to build and run the .NET projects.
+- **IDE or Editor**: Any IDE or editor capable of handling .NET projects, like Visual Studio.
+  
+Also, ensure:
+* You have installed the latest version of [ASP.NET Core](https://dotnet.microsoft.com/download)
+* You have a Windows/Linux/Mac machine capable of running .NET applications.
+* You have a basic understanding of C# and .NET.
+
 
 ## Installation
 
