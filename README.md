@@ -15,5 +15,18 @@ Follow these steps to get the project up and running on your local machine:
 
 ### 1. Clone the project to your local machine
 ### 2. Update the Connection String in appsettings.json. Make sure PostgreSQL is installed and the database 'ringo' is set up. Update the connection string if you use a different database name.
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=yourdatabasename;Username=postgres;Password=yourpassword"
+  }
+}
+```
+
 ### 3. Install all the Dependencies (NuGet)
-### 4. Run the Application (Should Run on https://localhost:7196;http://localhost:5053)
+### 4. Run the Application 
+By default, the application should be accessible at the following URLs:
+
+    HTTPS: https://localhost:7196
+    HTTP: http://localhost:5053
