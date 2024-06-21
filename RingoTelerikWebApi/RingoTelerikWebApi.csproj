@@ -20,6 +20,7 @@
     <PackageReference Include="Npgsql" Version="8.0.3" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
     <PackageReference Include="Telerik.Reporting.OpenXmlRendering.Trial" Version="18.1.24.514" />
+    <PackageReference Include="Telerik.Reporting.Trial" Version="18.1.24.514" />
     <PackageReference Include="Telerik.WebReportDesigner.Services.Trial" Version="18.1.24.514" />
   </ItemGroup>
 

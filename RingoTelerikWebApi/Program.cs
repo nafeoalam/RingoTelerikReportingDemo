@@ -8,7 +8,26 @@ using System.IO;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add CORS configuration
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        policyBuilder => policyBuilder.WithOrigins("http://your-react-app.com") // Adjust the origin as per your React app
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod());
+});
+
+
+
 builder.Services.AddRazorPages().AddNewtonsoftJson();
+
+//builder.Services.AddTelerikReporting(services =>
+//{
+//    services.Configure<ReportServerConnection>(builder.Configuration.GetSection("ReportServer"));
+//});
+
+
 builder.Services.AddControllers();
 builder.Services.AddMvc();
 builder.Services.TryAddSingleton((Func<IServiceProvider, IReportServiceConfiguration>)(sp =>
@@ -38,7 +57,21 @@ builder.Services.TryAddSingleton<IReportDesignerServiceConfiguration>(sp => new 
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
+
+
 app.UseRouting();
+
+// Apply CORS policy
+app.UseCors("AllowSpecificOrigin");
+
+app.UseAuthorization();
+
 app.UseEndpoints(endpoints =>
 {
 	endpoints.MapControllers();
