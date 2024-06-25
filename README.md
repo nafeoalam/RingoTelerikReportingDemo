@@ -25,7 +25,7 @@ Follow these steps to get the project up and running on your local machine:
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Host=localhost;Port=5432;Database=yourdatabasename;Username=postgres;Password=yourpassword"
+    "DefaultConnection": "Host=localhost;Port=5432;Database=yourdatabasename;Username=yourdatabaseusername;Password=yourpassword"
   }
 }
 ```
