@@ -22,12 +22,6 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddRazorPages().AddNewtonsoftJson();
 
-//builder.Services.AddTelerikReporting(services =>
-//{
-//    services.Configure<ReportServerConnection>(builder.Configuration.GetSection("ReportServer"));
-//});
-
-
 builder.Services.AddControllers();
 builder.Services.AddMvc();
 builder.Services.TryAddSingleton((Func<IServiceProvider, IReportServiceConfiguration>)(sp =>
