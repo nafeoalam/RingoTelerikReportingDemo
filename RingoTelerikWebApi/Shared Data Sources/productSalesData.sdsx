@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebServiceDataSource ParameterValues="{}" AuthParameterValues="null" ServiceUrl="https://demos.telerik.com/reporting/api/data/ProductSales.min" Name="webServiceDataSource1" xmlns="http://schemas.telerik.com/reporting/2023/3.0" />
