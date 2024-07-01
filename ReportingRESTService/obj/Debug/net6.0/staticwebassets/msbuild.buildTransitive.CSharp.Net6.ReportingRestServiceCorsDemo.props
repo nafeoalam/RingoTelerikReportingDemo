@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CSharp.Net6.ReportingRestServiceCorsDemo.props" />
+</Project>

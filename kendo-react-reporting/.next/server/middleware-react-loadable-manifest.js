@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\index.js -> ../components/ViewerComponent\":{\"id\":\"pages\\\\index.js -> ../components/ViewerComponent\",\"files\":[\"static/chunks/src_components_ViewerComponent_js.js\"]}}"

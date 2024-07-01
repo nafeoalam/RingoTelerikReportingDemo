@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "+SjyZpV0JgDUlHIiCOP1IU2Q+2MZqYVNZzbkHw2afCw=",
+  "Source": "CSharp.Net6.ReportingRestServiceCorsDemo",
+  "BasePath": "_content/CSharp.Net6.ReportingRestServiceCorsDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CSharp.Net6.ReportingRestServiceCorsDemo\\wwwroot",
+      "Source": "CSharp.Net6.ReportingRestServiceCorsDemo",
+      "ContentRoot": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\wwwroot\\",
+      "BasePath": "_content/CSharp.Net6.ReportingRestServiceCorsDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\wwwroot\\index.html",
+      "SourceId": "CSharp.Net6.ReportingRestServiceCorsDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\wwwroot\\",
+      "BasePath": "_content/CSharp.Net6.ReportingRestServiceCorsDemo",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
