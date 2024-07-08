@@ -10,7 +10,7 @@ const ViewerComponent = dynamic(() => import("../components/ViewerComponent"), {
 });
 
 export default function Home() {
-  const [selected, setSelected] = useState('SampleReport'); // Initialize with a default report
+  const [selected, setSelected] = useState('Multiselect'); // Initialize with a default report
   const [gridDataState, setGridDataState] = useState(() => ({
     data: process([], { sort: [{ field: "Name", dir: "asc" }] }), // Assuming initial data setup
   }));
@@ -31,11 +31,12 @@ export default function Home() {
         <div label="React Report Viewer">
           <ViewerComponent reportName={selected + ".trdp"} data={gridDataState.data}></ViewerComponent>
           <select value={selected} onChange={handleChange}>
-            <option value="SampleReport">SampleReport</option>
+            {/* <option value="SampleReport">SampleReport</option> */}
             <option value="chartsTrial">chartsTrial</option>
             <option value="RequisitionAnalysisReport">RequisitionAnalysisReport</option>
             <option value="SubReport">SubReport</option>
-            <option value="MoreColums">MoreColums</option>
+            {/* <option value="MoreColums">MoreColums</option> */}
+            <option value="Multiselect">Multiselect</option>
           </select>
           <div>Selected: {selected}</div>
         </div>
