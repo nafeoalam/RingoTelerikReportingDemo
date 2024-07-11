@@ -21,9 +21,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Npgsql" Version="8.0.3" />
-    <PackageReference Include="Telerik.Reporting.OpenXmlRendering.Trial" Version="18.1.24.514" />
-    <PackageReference Include="Telerik.Reporting.Trial" Version="18.1.24.514" />
-    <PackageReference Include="Telerik.WebReportDesigner.Services.Trial" Version="18.1.24.514" />
+    <PackageReference Include="Telerik.Reporting.OpenXmlRendering.Trial" Version="18.1.24.709" />
+    <PackageReference Include="Telerik.Reporting.Services.AspNetCore.Trial" Version="18.1.24.709" />
+    <PackageReference Include="Telerik.Reporting.Trial" Version="18.1.24.709" />
+    <PackageReference Include="Telerik.WebReportDesigner.Services.Trial" Version="18.1.24.709" />
     <!--The following lines are replaced with package refs during the product build-->
   </ItemGroup>
   <ItemGroup>

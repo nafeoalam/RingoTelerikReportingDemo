@@ -1,35 +1,37 @@
-import React, { Component } from "react";
+import React, { useRef } from "react";
 import { TelerikReportViewer } from "@progress/telerik-react-report-viewer";
 
-class ViewerComponent extends Component {
-  viewer;
+const ViewerComponent = ({ reportName, clientName }) => {
+  const viewerRef = useRef(null);
 
-  render() {
-    return (
-      <TelerikReportViewer
-        key={this.props.reportName} // Changes trigger remount
-        ref={(el) => (this.viewer = el)}
-        serviceUrl="http://localhost:59655/api/reports/"
-        reportSource={{
-          report: this.props.reportName, // Dynamic report name based on selection
-          parameters: {
-            DataParameter: JSON.stringify(this.props.data.data), // Make sure data is correctly formatted
-          },
-        }}
-        viewerContainerStyle={{
-          position: "absolute",
-          height: "90%",
-          width: "90%",
-          top: "6%",
-          clear: "both",
-          fontFamily: "ms sans serif",
-        }}
-        scaleMode="SPECIFIC"
-        scale={1.2}
-        enableAccessibility={false}
-      />
-    );
-  }
-}
+
+  console.log({reportName})
+  console.log({clientName})
+
+  return (
+    <TelerikReportViewer
+      key={reportName} // Using reportName as key to trigger remount if reportName changes
+      ref={viewerRef}
+      serviceUrl="http://localhost:59655/api/reports/render/"
+      reportSource={{
+        report: reportName + ".trdp", // Dynamic report name based on selection
+        parameters: {
+          ClientName: clientName ?? 'NAPA', // Make sure data is correctly formatted
+        },
+      }}
+      viewerContainerStyle={{
+        position: "absolute",
+        height: "90%",
+        width: "90%",
+        top: "6%",
+        clear: "both",
+        fontFamily: "ms sans serif",
+      }}
+      scaleMode="SPECIFIC"
+      scale={1.2}
+      enableAccessibility={false}
+    />
+  );
+};
 
 export default ViewerComponent;

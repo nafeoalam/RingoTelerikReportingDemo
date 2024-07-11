@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TzGbPxX0w3U=",
+  "dgSpecHash": "VtXTAJNFl1M=",
   "success": true,
   "projectFilePath": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj",
   "expectedPackageFiles": [
@@ -131,12 +131,12 @@
     "C:\\Users\\Nalam\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Nalam\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Nalam\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.jsonserialization.trial\\18.1.24.514\\telerik.reporting.jsonserialization.trial.18.1.24.514.nupkg.sha512",
-    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.openxmlrendering.trial\\18.1.24.514\\telerik.reporting.openxmlrendering.trial.18.1.24.514.nupkg.sha512",
-    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.services.aspnetcore.trial\\18.1.24.514\\telerik.reporting.services.aspnetcore.trial.18.1.24.514.nupkg.sha512",
-    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.trial\\18.1.24.514\\telerik.reporting.trial.18.1.24.514.nupkg.sha512",
-    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.webservicedatasource.trial\\18.1.24.514\\telerik.reporting.webservicedatasource.trial.18.1.24.514.nupkg.sha512",
-    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.webreportdesigner.services.trial\\18.1.24.514\\telerik.webreportdesigner.services.trial.18.1.24.514.nupkg.sha512"
+    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.jsonserialization.trial\\18.1.24.709\\telerik.reporting.jsonserialization.trial.18.1.24.709.nupkg.sha512",
+    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.openxmlrendering.trial\\18.1.24.709\\telerik.reporting.openxmlrendering.trial.18.1.24.709.nupkg.sha512",
+    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.services.aspnetcore.trial\\18.1.24.709\\telerik.reporting.services.aspnetcore.trial.18.1.24.709.nupkg.sha512",
+    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.trial\\18.1.24.709\\telerik.reporting.trial.18.1.24.709.nupkg.sha512",
+    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.reporting.webservicedatasource.trial\\18.1.24.709\\telerik.reporting.webservicedatasource.trial.18.1.24.709.nupkg.sha512",
+    "C:\\Users\\Nalam\\.nuget\\packages\\telerik.webreportdesigner.services.trial\\18.1.24.709\\telerik.webreportdesigner.services.trial.18.1.24.709.nupkg.sha512"
   ],
   "logs": []
 }

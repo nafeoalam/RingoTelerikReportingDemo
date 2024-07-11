@@ -10,9 +10,10 @@
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Npgsql": "8.0.3",
-          "Telerik.Reporting.OpenXmlRendering.Trial": "18.1.24.514",
-          "Telerik.Reporting.Trial": "18.1.24.514",
-          "Telerik.WebReportDesigner.Services.Trial": "18.1.24.514"
+          "Telerik.Reporting.OpenXmlRendering.Trial": "18.1.24.709",
+          "Telerik.Reporting.Services.AspNetCore.Trial": "18.1.24.709",
+          "Telerik.Reporting.Trial": "18.1.24.709",
+          "Telerik.WebReportDesigner.Services.Trial": "18.1.24.709"
         },
         "runtime": {
           "CSharp.Net6.ReportingRestServiceCorsDemo.dll": {}
@@ -1263,43 +1264,43 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "Telerik.Reporting.JsonSerialization.Trial/18.1.24.514": {
+      "Telerik.Reporting.JsonSerialization.Trial/18.1.24.709": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "Telerik.Reporting.Trial": "18.1.24.514"
+          "Telerik.Reporting.Trial": "18.1.24.709"
         },
         "runtime": {
           "lib/netstandard2.0/Telerik.Reporting.JsonSerialization.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           }
         }
       },
-      "Telerik.Reporting.OpenXmlRendering.Trial/18.1.24.514": {
+      "Telerik.Reporting.OpenXmlRendering.Trial/18.1.24.709": {
         "dependencies": {
           "DocumentFormat.OpenXml": "2.7.2",
-          "Telerik.Reporting.Trial": "18.1.24.514"
+          "Telerik.Reporting.Trial": "18.1.24.709"
         },
         "runtime": {
           "lib/netstandard2.0/Telerik.Reporting.OpenXmlRendering.2.7.2.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           }
         }
       },
-      "Telerik.Reporting.Services.AspNetCore.Trial/18.1.24.514": {
+      "Telerik.Reporting.Services.AspNetCore.Trial/18.1.24.709": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.0",
-          "Telerik.Reporting.Trial": "18.1.24.514"
+          "Telerik.Reporting.Trial": "18.1.24.709"
         },
         "runtime": {
           "lib/net6.0/Telerik.Reporting.Services.AspNetCore.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           }
         }
       },
-      "Telerik.Reporting.Trial/18.1.24.514": {
+      "Telerik.Reporting.Trial/18.1.24.709": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
@@ -1325,47 +1326,47 @@
             "fileVersion": "1.8.116.0"
           },
           "lib/netstandard2.0/Telerik.Reporting.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           }
         }
       },
-      "Telerik.Reporting.WebServiceDataSource.Trial/18.1.24.514": {
+      "Telerik.Reporting.WebServiceDataSource.Trial/18.1.24.709": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "Telerik.Reporting.Trial": "18.1.24.514"
+          "Telerik.Reporting.Trial": "18.1.24.709"
         },
         "runtime": {
           "lib/netstandard2.0/Telerik.Reporting.WebServiceDataSource.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           }
         }
       },
-      "Telerik.WebReportDesigner.Services.Trial/18.1.24.514": {
+      "Telerik.WebReportDesigner.Services.Trial/18.1.24.709": {
         "dependencies": {
           "System.Data.Odbc": "6.0.1",
-          "Telerik.Reporting.JsonSerialization.Trial": "18.1.24.514",
-          "Telerik.Reporting.Services.AspNetCore.Trial": "18.1.24.514",
-          "Telerik.Reporting.Trial": "18.1.24.514",
-          "Telerik.Reporting.WebServiceDataSource.Trial": "18.1.24.514"
+          "Telerik.Reporting.JsonSerialization.Trial": "18.1.24.709",
+          "Telerik.Reporting.Services.AspNetCore.Trial": "18.1.24.709",
+          "Telerik.Reporting.Trial": "18.1.24.709",
+          "Telerik.Reporting.WebServiceDataSource.Trial": "18.1.24.709"
         },
         "runtime": {
           "lib/net6.0/Telerik.Reporting.Data.Schema.Provider.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           },
           "lib/net6.0/Telerik.Reporting.Data.Schema.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           },
           "lib/net6.0/Telerik.Reporting.OpenAccess.Core.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           },
           "lib/net6.0/Telerik.WebReportDesigner.Services.dll": {
-            "assemblyVersion": "18.1.24.514",
-            "fileVersion": "18.1.24.514"
+            "assemblyVersion": "18.1.24.709",
+            "fileVersion": "18.1.24.709"
           }
         }
       }
@@ -2266,47 +2267,47 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "Telerik.Reporting.JsonSerialization.Trial/18.1.24.514": {
+    "Telerik.Reporting.JsonSerialization.Trial/18.1.24.709": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7y87D11CSAlKp8jWXc65CoX8x326TDgzxEhZvEltFeVPKKsiQfbJ61+6R3ac8yCdI5FZEN4+2xtSraszDJg0cA==",
-      "path": "telerik.reporting.jsonserialization.trial/18.1.24.514",
-      "hashPath": "telerik.reporting.jsonserialization.trial.18.1.24.514.nupkg.sha512"
+      "sha512": "sha512-coYkQf+mZuh3ff4rto220DJAQRAP81VTJDZM9OFtal9Brq0ygXHjJIP+P7LCZissbOiH5+fzTh/kRPXkMlQM7g==",
+      "path": "telerik.reporting.jsonserialization.trial/18.1.24.709",
+      "hashPath": "telerik.reporting.jsonserialization.trial.18.1.24.709.nupkg.sha512"
     },
-    "Telerik.Reporting.OpenXmlRendering.Trial/18.1.24.514": {
+    "Telerik.Reporting.OpenXmlRendering.Trial/18.1.24.709": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-psmpBkIUFEuMZd+Cq0+S2H6noYgXX2ulqi90vVw0vC9N4DyWekXQ9715YxsXTIYg7flE2SUa4595erC5gER34A==",
-      "path": "telerik.reporting.openxmlrendering.trial/18.1.24.514",
-      "hashPath": "telerik.reporting.openxmlrendering.trial.18.1.24.514.nupkg.sha512"
+      "sha512": "sha512-I6ZEouIUVApsqdDrTayvV3eiNs7+BDa5DIfv5WTW9WaS/fOnzkjXZICEBgati9YViSUusH5T5T0Y02cEhPJdkw==",
+      "path": "telerik.reporting.openxmlrendering.trial/18.1.24.709",
+      "hashPath": "telerik.reporting.openxmlrendering.trial.18.1.24.709.nupkg.sha512"
     },
-    "Telerik.Reporting.Services.AspNetCore.Trial/18.1.24.514": {
+    "Telerik.Reporting.Services.AspNetCore.Trial/18.1.24.709": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RnA7C8Vc3JJizMEZIplUHp151QMe8qmMBaGMFKjMQhWHv4zDxwvv7IRzaPIDO8Cc/sjs7T/JHr96Xb8mOyM/Kg==",
-      "path": "telerik.reporting.services.aspnetcore.trial/18.1.24.514",
-      "hashPath": "telerik.reporting.services.aspnetcore.trial.18.1.24.514.nupkg.sha512"
+      "sha512": "sha512-CWuyG1NNoAWONmzSkD0dcfnjwu+W6DCmQkO7U6gwTK4W3CRNEsZjhbbHg25YBbjHE9bnTL/aCbIU6iLtngkVKA==",
+      "path": "telerik.reporting.services.aspnetcore.trial/18.1.24.709",
+      "hashPath": "telerik.reporting.services.aspnetcore.trial.18.1.24.709.nupkg.sha512"
     },
-    "Telerik.Reporting.Trial/18.1.24.514": {
+    "Telerik.Reporting.Trial/18.1.24.709": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GQUuaKLg3q+RXrB6puf3gBzUmlhpKirKMAH3BQ4BjX5LFHcrKDT7qJb1ZeqBZFQCBvQCRdxijpXrMaZHvNY8jg==",
-      "path": "telerik.reporting.trial/18.1.24.514",
-      "hashPath": "telerik.reporting.trial.18.1.24.514.nupkg.sha512"
+      "sha512": "sha512-qnesrtTJlyO11Kl+g8rLV48kWw7mlGjEPptz12EyluiUOB3pj7JUpPmRWjGBi7HToeNCEvp28IXB+6dmwrmkxg==",
+      "path": "telerik.reporting.trial/18.1.24.709",
+      "hashPath": "telerik.reporting.trial.18.1.24.709.nupkg.sha512"
     },
-    "Telerik.Reporting.WebServiceDataSource.Trial/18.1.24.514": {
+    "Telerik.Reporting.WebServiceDataSource.Trial/18.1.24.709": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Cw/zgvYM7W0lcZYvwa3JGjtOXLJW/Xc0t2U1wJ8WIbZoVbZyHU9pJCfVT4g5EXCFu8dz05gHNyc+b3C8F7ijJQ==",
-      "path": "telerik.reporting.webservicedatasource.trial/18.1.24.514",
-      "hashPath": "telerik.reporting.webservicedatasource.trial.18.1.24.514.nupkg.sha512"
+      "sha512": "sha512-MPk7CwOso8fRIweDT1RvxD0lxgD+LFuQHnsT0V6lRuwvEReXe7xME+a+TNGpx2h5yeACXXPsvGXYGZH3FSAuJw==",
+      "path": "telerik.reporting.webservicedatasource.trial/18.1.24.709",
+      "hashPath": "telerik.reporting.webservicedatasource.trial.18.1.24.709.nupkg.sha512"
     },
-    "Telerik.WebReportDesigner.Services.Trial/18.1.24.514": {
+    "Telerik.WebReportDesigner.Services.Trial/18.1.24.709": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i1G/Vj2wDS6dnpZZB+j6lETkbl5r7ZntTtbi/Tul3jJIpoWF5fJC3GcFCFBDMAFfBaI1xHhqVfV66z1HaguKFA==",
-      "path": "telerik.webreportdesigner.services.trial/18.1.24.514",
-      "hashPath": "telerik.webreportdesigner.services.trial.18.1.24.514.nupkg.sha512"
+      "sha512": "sha512-GdYqmTc/DMphN5oVNuzCQvTiFHnjqIrWWaE5bsvkwgwIIMgq0FUOrTcs2z0My3lNt7t4I8jOQa+kiDCLgI+xag==",
+      "path": "telerik.webreportdesigner.services.trial/18.1.24.709",
+      "hashPath": "telerik.webreportdesigner.services.trial.18.1.24.709.nupkg.sha512"
     }
   }
 }

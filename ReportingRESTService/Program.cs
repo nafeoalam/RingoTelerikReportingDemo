@@ -9,7 +9,6 @@ using Telerik.Reporting.Cache.File;
 using Telerik.Reporting.Services;
 using Telerik.WebReportDesigner.Services;
 
-EnableTracing();
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -68,27 +67,3 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
-
-/// <summary>
-/// Uncomment the lines to enable tracing in the current application.
-/// The trace log will be persisted in a file named log.txt in the application root directory.
-/// </summary>
-static void EnableTracing()
-{
-    // System.Diagnostics.Trace.Listeners.Add(new System.Diagnostics.TextWriterTraceListener(File.CreateText("log.txt")));
-    // System.Diagnostics.Trace.AutoFlush = true;
-}
-
-/// <summary>
-/// Loads a reporting configuration from a specific JSON-based configuration file.
-/// </summary>
-/// <param name="environment">The current web hosting environment used to obtain the content root path</param>
-/// <returns>IConfiguration instance used to initialize the Reporting engine</returns>
-static IConfiguration ResolveSpecificReportingConfiguration(IWebHostEnvironment environment)
-{
-    // If a specific configuration needs to be passed to the reporting engine, add it through a new IConfiguration instance.
-    var reportingConfigFileName = System.IO.Path.Combine(environment.ContentRootPath, "reportingAppSettings.json");
-    return new ConfigurationBuilder()
-        .AddJsonFile(reportingConfigFileName, true)
-        .Build();
-}

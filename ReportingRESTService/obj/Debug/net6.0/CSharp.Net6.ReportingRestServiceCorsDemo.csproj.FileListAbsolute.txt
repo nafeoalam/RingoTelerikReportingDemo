@@ -102,7 +102,6 @@ C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\ne
 C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\Reports\SampleReport.trdp
 C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\CSharp.Net6.ReportingRestServiceCorsDemo.staticwebassets.runtime.json
 C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\CSharp.Net6.ReportingRestServiceCorsDemo.exe
-C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\Reports\Speakers Report.trdp
 C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\CSharp.Net6.ReportingRestServiceCorsDemo.deps.json
 C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\CSharp.Net6.ReportingRestServiceCorsDemo.runtimeconfig.json
 C:\Users\Nalam\source\repos\RingoTelerikWebApi\ReportingRESTService\bin\Debug\net6.0\CSharp.Net6.ReportingRestServiceCorsDemo.dll

@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3A617A1B-83AC-4B7D-B2CC-C93E8919C963}|CSharp.Net6.ReportingRestServiceCorsDemo.csproj|c:\\users\\nalam\\source\\repos\\ringotelerikwebapi\\reportingrestservice\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A617A1B-83AC-4B7D-B2CC-C93E8919C963}|CSharp.Net6.ReportingRestServiceCorsDemo.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A617A1B-83AC-4B7D-B2CC-C93E8919C963}|CSharp.Net6.ReportingRestServiceCorsDemo.csproj|c:\\users\\nalam\\source\\repos\\ringotelerikwebapi\\reportingrestservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A617A1B-83AC-4B7D-B2CC-C93E8919C963}|CSharp.Net6.ReportingRestServiceCorsDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
-              "ToolTip": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "Controllers\\ReportsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T07:40:35.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T07:40:02.089Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

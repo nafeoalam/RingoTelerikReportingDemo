@@ -24,7 +24,7 @@
     "@progress/kendo-react-treeview": "^7.4.0",
     "@progress/kendo-svg-icons": "^2.3.0",
     "@progress/kendo-theme-default": "^7.2.1",
-    "@progress/telerik-react-report-viewer": "*",
+    "@progress/telerik-react-report-viewer": "22.24.709",
     "jquery": "^3.7.1",
     "next": "14.2.3",
     "react": "^18",
