@@ -1,7 +1,5 @@
 import Head from "next/head";
-import { speakersData } from "../data/speakers";
 import dynamic from "next/dynamic";
-import { process } from "@progress/kendo-data-query";
 import { useState } from "react";
 import "@progress/kendo-theme-default/dist/all.css";
 
@@ -29,11 +27,11 @@ export default function Home() {
           <ViewerComponent reportName={selected}></ViewerComponent>
           <select value={selected} onChange={handleChange}>
             {/* <option value="SampleReport">SampleReport</option> */}
+            <option value="Multiselect">Multiselect</option>
             <option value="chartsTrial">chartsTrial</option>
             <option value="RequisitionAnalysisReport">RequisitionAnalysisReport</option>
             <option value="SubReport">SubReport</option>
             {/* <option value="MoreColums">MoreColums</option> */}
-            <option value="Multiselect">Multiselect</option>
           </select>
           <div>Selected: {selected}</div>
         </div>

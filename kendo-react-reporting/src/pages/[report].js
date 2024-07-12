@@ -1,7 +1,6 @@
 // pages/[report].js
 import { useRouter } from "next/router";
 import Head from "next/head";
-import { speakersData } from "../data/speakers";
 import dynamic from "next/dynamic";
 import { process } from "@progress/kendo-data-query";
 import { useState } from "react";
@@ -26,8 +25,6 @@ const ReportPage = () => {
 
   return (
     <div>
-      <h1>Report: {report}</h1>
-
       <div>
         <div label="React Report Viewer">
           <ViewerComponent
@@ -36,8 +33,7 @@ const ReportPage = () => {
             data={gridDataState.data}
           ></ViewerComponent>
 
-          <select value={selected} onChange={handleChange}>
-            {/* <option value="SampleReport">SampleReport</option> */}
+          {/* <select value={selected} onChange={handleChange}>
             <option value="Multiselect">Multiselect</option>
 
             <option value="chartsTrial">chartsTrial</option>
@@ -45,9 +41,8 @@ const ReportPage = () => {
               RequisitionAnalysisReport
             </option>
             <option value="SubReport">SubReport</option>
-            {/* <option value="MoreColums">MoreColums</option> */}
           </select>
-          <div>Selected: {selected}</div>
+          <div>Selected: {selected}</div> */}
         </div>
       </div>
     </div>

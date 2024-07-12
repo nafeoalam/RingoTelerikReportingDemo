@@ -4,10 +4,6 @@ import { TelerikReportViewer } from "@progress/telerik-react-report-viewer";
 const ViewerComponent = ({ reportName, clientName }) => {
   const viewerRef = useRef(null);
 
-
-  console.log({reportName})
-  console.log({clientName})
-
   return (
     <TelerikReportViewer
       key={reportName} // Using reportName as key to trigger remount if reportName changes
