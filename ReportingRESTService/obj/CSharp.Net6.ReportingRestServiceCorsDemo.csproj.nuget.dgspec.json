@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj": {}
+    "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj": {
+    "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj",
         "projectName": "CSharp.Net6.ReportingRestServiceCorsDemo",
-        "projectPath": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj",
-        "packagesPath": "C:\\Users\\Nalam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nalam\\source\\repos\\RingoTelerikWebApi\\ReportingRESTService\\obj\\",
+        "projectPath": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\CSharp.Net6.ReportingRestServiceCorsDemo.csproj",
+        "packagesPath": "C:\\Users\\Jatin.Bhola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nalam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jatin.Bhola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,9 +22,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://nuget.telerik.com/nuget/": {},
+          "https://nuget.telerik.com/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net6.0": {
@@ -36,11 +37,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,6 +79,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -91,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
         }
       }
     }
