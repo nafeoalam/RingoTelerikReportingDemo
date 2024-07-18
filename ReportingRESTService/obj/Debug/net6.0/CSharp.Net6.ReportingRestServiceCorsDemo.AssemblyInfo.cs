@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharp.Net6.ReportingRestServiceCorsDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63b8af9564bf0b1e915aaf1817c111d399ac1157")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c915e9dbd976b0e21ba387c55d2330cd7c9b5cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharp.Net6.ReportingRestServiceCorsDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharp.Net6.ReportingRestServiceCorsDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

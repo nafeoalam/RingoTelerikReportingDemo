@@ -15,7 +15,7 @@ const Footer = () => {
             text-align: center;
             padding: 10px;
             height: 35px;
-            font-family: Open Sans;
+            font-family: 'Arial', sans-serif;
           }
         `}</style>
       </footer>

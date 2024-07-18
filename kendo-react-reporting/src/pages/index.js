@@ -2,13 +2,15 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { useState } from "react";
 import "@progress/kendo-theme-default/dist/all.css";
+import reportOptions from "../../reportOptions";
 
 const ViewerComponent = dynamic(() => import("../components/ViewerComponent"), {
   ssr: false,
 });
 
 export default function Home() {
-  const [selected, setSelected] = useState('MultiselectForAll'); // Initialize with a default report
+  // const [selected, setSelected] = useState('Multiselect'); // Initialize with a default report
+  const [selected, setSelected] = useState(reportOptions[0].value);
 
   const handleChange = (event) => {
     setSelected(event.target.value);
@@ -22,19 +24,31 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      {/* <div>
         <div label="React Report Viewer">
-          <ViewerComponent reportName={selected}></ViewerComponent>
           <select value={selected} onChange={handleChange}>
-            {/* <option value="SampleReport">SampleReport</option> */}
+            <option value="SampleReport">SampleReport</option>
             <option value="Multiselect">Multiselect</option>
             <option value="chartsTrial">chartsTrial</option>
             <option value="RequisitionAnalysisReport">RequisitionAnalysisReport</option>
             <option value="SubReport">SubReport</option>
-            {/* <option value="MoreColums">MoreColums</option> */}
+            <option value="MoreColums">MoreColums</option>
           </select>
+          <ViewerComponent reportName={selected}></ViewerComponent>
+
           <div>Selected: {selected}</div>
         </div>
+      </div> */}
+      <div>
+        <ViewerComponent reportName={selected} />
+        <select value={selected} onChange={handleChange} style={{ marginTop: '10px' }}>
+          {reportOptions.map((option) => (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          ))}
+        </select>
+        {/* <div>Selected: {selected}</div>  */}
       </div>
     </>
   );
