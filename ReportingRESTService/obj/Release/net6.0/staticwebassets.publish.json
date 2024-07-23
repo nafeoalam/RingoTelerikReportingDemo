@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "jpHlTAGO/X9r8iQ+2YJdPHSj/3gAP7EEKRtU3TfcZ3s=",
+  "Source": "CSharp.Net6.ReportingRestServiceCorsDemo",
+  "BasePath": "_content/CSharp.Net6.ReportingRestServiceCorsDemo",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CSharp.Net6.ReportingRestServiceCorsDemo\\wwwroot",
+      "Source": "CSharp.Net6.ReportingRestServiceCorsDemo",
+      "ContentRoot": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\wwwroot\\",
+      "BasePath": "_content/CSharp.Net6.ReportingRestServiceCorsDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\wwwroot\\index.html",
+      "SourceId": "CSharp.Net6.ReportingRestServiceCorsDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\wwwroot\\",
+      "BasePath": "_content/CSharp.Net6.ReportingRestServiceCorsDemo",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

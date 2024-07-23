@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jatin.Bhola\\Desktop\\TelerikIntegratedWithReact\\ReportingRESTService\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.CSharp.Net6.ReportingRestServiceCorsDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.CSharp.Net6.ReportingRestServiceCorsDemo.props",
+      "PackagePath": "build\\CSharp.Net6.ReportingRestServiceCorsDemo.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CSharp.Net6.ReportingRestServiceCorsDemo.props",
+      "PackagePath": "buildMultiTargeting\\CSharp.Net6.ReportingRestServiceCorsDemo.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.CSharp.Net6.ReportingRestServiceCorsDemo.props",
+      "PackagePath": "buildTransitive\\CSharp.Net6.ReportingRestServiceCorsDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
